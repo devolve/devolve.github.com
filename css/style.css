@@ -1,13 +1,21 @@
 html, body {
 	margin:0;
 	padding:0;
-	height:300px;
 	background-color:#e7e6f8;
 }
 #head1 {
 		background-color:#6b238e;
 		height:130px;
 	
+}
+
+#footer {
+		background-color:#6b238e;
+		height:40px;
+		width:999px;
+		margin-left:0px;
+	position:relative;
+	margin-top:275px;
 }
 #wrapper {
 	margin:0 auto;
