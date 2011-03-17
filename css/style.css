@@ -1,0 +1,276 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:300px;
+	background-color:#e7e6f8;
+}
+#head1 {
+		background-color:#6b238e;
+		height:130px;
+	
+}
+#wrapper {
+	margin:0 auto;
+	width:1000px;
+	padding-top:170px;
+}
+#wrapper1 {
+	margin:0 auto;
+	width:1000px;
+
+}
+
+
+/* timer general */
+#timer {
+	position:relative;
+}
+
+hr {
+	position:absolute;
+	top:60px;
+	left:0;
+	width:972px;
+	border:1px solid #ffffff;	
+}
+
+*:first-child+html hr {
+	top:370px;
+}
+
+
+/* timer numbers */
+.timer_numbers {
+	font-size:100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color:#ffffff;
+}
+
+#timer_days {
+	background:url(../images/countdown1.png) #e7e6f8 no-repeat;
+	float:left;
+	width:236px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:60px;
+}
+
+#timer_hours {
+	background:url(../images/countdown1.png) #e7e6f8 no-repeat;
+	float:left;
+	width:236px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:60px;
+}
+
+#timer_mins {
+	background:url(../images/countdown1.png) #e7e6f8 no-repeat;
+	float:left;
+	width:236px;
+	height:159px;
+	padding:10px 0 0 18px;
+	letter-spacing:60px;
+}
+
+#timer_seconds {
+	background:url(../images/countdown2.png) #e7e6f8 no-repeat;
+	float:left;
+	width:210px;
+	height:138px;
+	padding:10px 0 0 22px;
+	letter-spacing:55px;
+}
+
+/* timer labels */
+.timer_labels {
+	font-size:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#666;	
+}
+.timer_labels1 {
+	font-size:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color:#666;	
+	
+		margin:0 auto;
+	
+}
+#timer_label12 {
+		position:absolute;
+	margin-top:90px;
+	
+
+}
+#timer_label13 {
+		position:absolute;
+	margin-left:100px;
+	margin-top:30px;
+	color:#FF8C3F;
+	font-size:28px;
+	font-family: 'Slackey', serif;
+  
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px #bbb;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+	
+
+}
+#timer_labels {
+	position:relative;
+}
+
+#timer_days_label {
+	position:absolute;
+	top:150px;
+	left:58px;	
+}
+
+#timer_hours_label {
+	position:absolute;
+	top:150px;
+	left:305px;
+	
+}
+
+#timer_mins_label {
+	position:absolute;
+	top:150px;
+	left:570px;	
+}
+
+#timer_seconds_label {
+	position:absolute;
+	top:150px;
+	left:825px;
+}
+#cont {
+	margin:0 auto;
+	width:1000px;
+	
+}
+
+
+
+
+
+
+/* below style not apart of the tutorial */
+p#demoPage {
+	display:inline;
+	padding:5px;
+	background-color:#000000;
+	color:#FFFFFF;
+	margin:20px 0;
+	font-size:18px;
+}
+
+p#demoPage a {
+	color:#FFFFFF;	
+}
+.tip {font-family:Arial,Helvetica,sans-serif; 
+        font-size:11px;
+        padding:5px;
+        border:solid 2px #F87407;
+        width:auto;
+        color:#ffffff;
+        position:absolute; z-index:100;
+        visibility:hidden; top:20px;
+        left:90px; background:#92267B;
+        layer-background-color:#ffffcc;}
+.tip1 {font-family:Arial,Helvetica,sans-serif; 
+        font-size:11px;
+        padding:5px;
+        border:solid 2px gray;
+        width:235px;
+        position:absolute; z-index:100;
+        visibility:hidden; color:#696A61; top:20px;
+        left:90px; background-color:#ffffff;
+        layer-background-color:#ffffcc;}
+.tip2 {font-family:Arial,Helvetica,sans-serif; 
+        font-size:11px;
+        padding:0px;
+        border:solid 0px #9A2380;
+        width:535px;
+        position:absolute; z-index:100;
+        visibility:hidden; color:#696A61; top:20px;
+        left:90px; 
+        layer-background-color:#ffffcc;}
+.tip2 .outborder{
+        background-color:#FFEFFC;
+        border:2px solid #9A2380;
+        }
+.tip2 .head{
+        font-size:11px;
+        font-weight:normal;
+        margin:0px;
+        background-color:#9A2380;
+        color:#ffffff;
+        width:100%;}
+.tip2 .head span{
+        font-size:10px;
+        float:right;
+        }
+.imagearrowleft{
+        margin-left:0px;
+        height:16px;
+        width:34px;
+        border:0px solid red;
+        background:url("../image/2011/arrow.png") no-repeat;
+        }
+.imagearrowmid{
+        margin-left:250px;
+        height:16px;
+        width:34px;
+        border:0px solid red;
+        background:url("../image/2011/arrow.png") no-repeat;
+        }
+.imagearrowright{
+        margin-left:467px;
+        height:16px;
+        width:34px;
+        border:0px solid red;
+        background:url("../image/2011/arrow.png") no-repeat;
+        }
+.tip2 p{
+        padding:5px;
+        margin:0px;
+        font-size:10px;
+        }
+.tip2 ul{
+            border:0px solid red;
+            margin:4px 0px 0px 30px;
+            list-style:disc;
+            margin-top:0px;
+            padding:0px;
+            }
+.tip2 ul li{
+            margin-top:0px;
+            line-height:13px;
+            font-size:10px;
+            padding:0px;
+            }
+.tip2 ul li ul{
+            border:0px solid red;
+            margin-top:5px;
+            list-style:circle;
+            }
+.tip2 ul li ul li{
+            border:0px solid red;
+            margin:0px;
+            padding:0px;
+            line-height:10px;
+            font-size:10px;
+            }
+
